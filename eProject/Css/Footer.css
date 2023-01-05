@@ -1,0 +1,15 @@
+a {
+color:#3f3f3f;
+text-decoration: none;
+}
+a:hover {
+color:#CF751B;
+}
+.Footer {
+list-style:none;
+}
+.FooterText { outline:none; display:block; position:relative; padding:12px 20px; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); }
+.FooterHeader { 
+background:#ff9812; font:bold 13px/100% Arial; color:#ffffff; background:-moz-linear-gradient(top, #ff9812 0%, #e17310 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9812), color-stop(100%,#e17310));
+ }
+.FooterDown { font:bold 13px/100% Arial; color:#ffffff; background:#ff9812; background:-moz-linear-gradient(top, #ff9812 0%, #e17310 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9812), color-stop(100%,#e17310)); border-bottom-right-radius:5px; border-bottom-left-radius:5px; }

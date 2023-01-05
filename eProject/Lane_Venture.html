@@ -1,0 +1,443 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Css/Index.css" />
+		<link href="Css/Body.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="Css/headerstyle.css" type="text/css" />
+		<link rel="stylesheet" href="Css/Footer.css" type="text/css" />
+		<link rel="stylesheet" href="Css/css.css" type="text/css" />
+		<link rel="stylesheet" href="Css/image-slideshow.css" type="text/css" />
+		<link rel="stylesheet" href="css/jack.css" type="text/css" />
+		<script type="text/javascript" src="js/image-slideshow.js"></script>
+		<script type="text/javascript" src="js/data.js"></script>
+		<title>Universal Stationary</title>
+		<link rel="icon" href="images2/titleLogo.png" type="image/icon"/>
+		<link rel="shortcut icon" href="images2/titleLogo.png" type="image/icon"/> 
+		
+		<style type="text/css">
+			BodyDiv1 { position:inherit; width:160px; float:left; border-style:solid; border-color:#ffffff; border-width:thin;}
+			#BodyDiv2 { position:inherit; width:750px; float:left; border-style:solid; border-color:#ffffff; border-width:thin;}
+			#BodyDiv3 { position:inherit; width:280px; float:left; border-style:solid; border-color:#ffffff; border-width:thin;}
+			.Products { float:left; width:170px; height:auto; margin-top:30px; margin-right:0px; padding:3px; position:relative;}
+			.Products > a { font:bold Arial, Helvetica, sans-serif; color:#3792C1; size:14px; text-decoration:none;}
+			.Products > a:hover {color:#FF0000; text-decoration:none}
+			.Bold { font:bold Arial, Helvetica, sans-serif italic; font-size:15px; color:#000000; }
+		</style>
+	</head>
+	
+	<body onLoad="Lane_Venture_check();initSlideShow();">
+	<div style="width:1200px; margin:auto">
+	
+		<!-- Header starts -->
+		<div class="HeaderDiv">
+		
+			<div id="top_wrapper">
+				<div style="position:absolute; float:left"><b style="color:#333333"><i>Welcome to our site!</i></b></div>
+				<div id="top">
+					<ul id="social_box">
+						<li><a href="http://www.facebook.com/" target="_blank"><img src="images2/facebook.png" alt="facebook" /></a></li>
+						<li><a href="http://www.twitter.com/" target="_blank"><img src="images2/twitter.png" alt="twitter" /></a></li>
+						<li><a href="http://www.linkedin.com/" target="_blank"><img src="images2/linkedin.png" alt="linkin" /></a></li>
+						<li><a href="http://www.technorati.com/" target="_blank"><img src="images2/technorati.png" alt="technorati" /></a></li>
+						<li><a href="http://www.myspace.com/" target="_blank"><img src="images2/myspace.png" alt="myspace" /></a></li>                
+					</ul>
+				</div>
+			</div>
+			
+			<iframe src="images2/logo2.jpg" width="280" height="180" scrolling="no" frameborder="0"></iframe>
+			
+			<div style="float:right; margin-top:40px; margin-left:80px">
+			
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="450" height="70" id="site" align="middle">
+				
+						<param name="movie" value="Flash/site.swf" />
+						<param name="quality" value="high" />
+						<param name="bgcolor" value="#ffffff" />
+						<param name="play" value="true" />
+						<param name="loop" value="true" />
+						<param name="wmode" value="window" />
+						<param name="scale" value="showall" />
+						<param name="menu" value="true" />
+						<param name="devicefont" value="false" />
+						<param name="salign" value="" />
+						<param name="allowScriptAccess" value="sameDomain" />
+					<object type="application/x-shockwave-flash" data="Flash/site.swf" width="450" height="70">
+						<param name="movie" value="Flash/site.swf" />
+						<param name="quality" value="high" />
+						<param name="bgcolor" value="#ffffff" />
+						<param name="play" value="true" />
+						<param name="loop" value="true" />
+						<param name="wmode" value="window" />
+						<param name="scale" value="showall" />
+						<param name="menu" value="true" />
+						<param name="devicefont" value="false" />
+						<param name="salign" value="" />
+						<param name="allowScriptAccess" value="sameDomain" />
+						<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+						</a>
+					</object>
+				</object>
+			</div>
+		</div>
+		<!-- Header ends -->
+
+		
+		
+		<!-- Body starts -->
+	<div class="divBody2" style="margin:0px">
+		
+			<div id='cssmenu' style="margin-left:0px; margin-right:0px; position:relative">
+				<ul>
+					<li class="active"><a href="Index.html" target="_parent"><span>Home</span></a></li>
+					<li class="has-sub"><a href=""><span>Brand</span></a>
+						<ul>
+							<li><a href="Broyhill.html"><span>Broyhill</span></a></li>
+							<li><a href="Drexel_Heritage.html"><span>Drexel heritage</span></a></li>
+							<li><a href="Henredon.html"><span>Henredon</span></a></li>
+							<li><a href="Hickory.html"><span>Hickory</span></a></li>
+							<li><a href="La_Barge.html"><span>La Barge</span></a></li>
+							<li><a href="Lane_Venture.html"><span>Lane Venture</span></a></li>
+							<li><a href="Licensing.html"><span>Licensing</span></a></li>
+							<li><a href="Maitland_Smith.html"><span>Maitland Smith</span></a></li>
+							<li><a href="Pearson.html"><span>Pearson</span></a></li>
+							<li><a href="Thomasville.html"><span>Thomasville</span></a></li>
+						</ul>
+					</li>
+					
+					<li class='Active'><a href='#' onClick="generateProducts()"><span>Products</span></a></li>
+					<li class='acive'><a href='ContactUs.html'><span>Contact us</span></a></li>
+                    <li class='active'><a href='Add_Advertisement.html'><span>Add Advertisement</span></a></li>
+					<li class='active' style="vertical-align:middle">
+						<form name="search1" style="margin-top:6px; margin-left:10px; alignment-adjust:middle" id="search">
+							<input type="text" name="searching" class="text" size="26" id="Active" value=""/>
+							<input type="button" class="button" onClick="Search_Box()" value="Search" style="margin-left:8px"/>
+						</form>
+					</li>
+				</ul>
+			</div>
+
+			<div class="ColDIV1">
+
+				<div id="BodyDiv1" style="clear:left">
+					<div id="TYPE" style="position:relative; float:left;">
+						<ul>
+							<li style="background: #d4b800;
+								background: -webkit-linear-gradient(bottom, #ff9812 , #e17310);
+								background: -ms-linear-gradient(bottom, #ff9812 , #e17310); 
+								background: -moz-linear-gradient(bottom, #ff9812 , #e17310);
+								background: -o-linear-gradient(bottom, #ff9812 , #e17310); 			outline:none; 
+								display:block; 
+								padding:13px; width:124px;
+								font:bold 13px/100% Arial, Helvetica, sans-serif; 
+								text-align:center; 
+								border-top-right-radius:3px;
+								border-top-left-radius:3px;
+								color:#FFFFFF">
+								<b><span>TYPE</span></b>
+							</li>
+							
+							<li class='has-sub2'><a href='#'><span>Kitchen</span></a>
+								<ul>
+									<li><a href='#' onClick="Table_check()"><span>Table</span></a></li>
+								</ul>
+							</li>
+							
+							<li class='has-sub2'><a href='#'><span>Bedroom</span></a>
+								<ul>
+									<li><a href='#' onClick="Bed_check()"><span>Bed</span></a></li>
+									<li><a href='#' onClick="Cabinet_check()"><span>Cabinets</span></a></li>
+									<li><a href='#' onClick="Bookcase_check()"><span>Bookcase</span></a></li>
+								</ul>
+							</li>
+							
+							<li class='has-sub2'><a href='#'><span>Living Room</span></a>
+								<ul>
+									<li><a href='#' onClick="Sofa_check()"><span>Sofa</span></a></li>
+									<li><a href='#' onClick="Entertainment_center_check()"><span>Entertainment center</span></a></li>
+									<li><a href='#' onClick="Chest_check()"><span>Chest</span></a></li>
+									<li><a href='#' onClick="Bar_check()"><span>Bar</span></a></li>
+									<li><a href='#'><span>Storage</span></a></li>
+								</ul>
+							</li>
+							
+							<li class='has-sub2'><a href='#'><span>Dining Room</span></a>
+								<ul>
+									<li><a href='#'onClick="Table_check()"><span>Table</span></a></li>
+									<li><a href='#' onClick="Cabinet_check()"><span>Wardrobe</span></a></li>
+									<li><a href='#'><span>Beverage Center</span></a></li>
+									<li><a href='#' onClick="Chair_check()"><span>Chair</span></a></li>
+									<li><a href='#'><span>Storage</span></a></li>
+								</ul>
+							</li>
+							
+							<li class='has-sub2'><a href='#'><span>Bathroom</span></a>
+								<ul>
+									<li><a href='#' onClick="Mirror_check()"><span>Mirror</span></a></li>
+								</ul>
+							</li>
+							
+							<li class='has-sub2'><a href='#'><span>Children's Room</span></a>
+								<ul>
+									<li><a href='#'  onClick="Bed_check()"><span>Bed</span></a></li>
+									<li><a href='#' onClick="Desk_check()"><span>Desk</span></a></li>
+									<li><a href='#' onClick="Table_check()"><span>Table</span></a></li>
+									<li><a href='#' onClick="Chair_check()"><span>Chair</span></a></li>
+									<li><a href='#' onClick="Drawer_check()"><span>Drawer</span></a></li>
+									<li><a href='#' onClick="Cabinet_check()"><span>Cabinet</span></a></li>
+								</ul>
+							</li>
+							
+							<li class='has-sub2'><a href='#'><span>OutDoor</span></a>
+								<ul>
+									<li><a href='#'  onClick="Bench_check()"><span>Bench</span></a></li>
+								</ul>
+							</li>
+							
+							<li class='has-sub2'><a href='#'><span>Office</span></a>
+								<ul>
+									<li><a href='#' onClick="Desk_check()"><span>Desk</span></a></li>
+									<li><a href='#' onClick="Sofa_check()"><span>Sofa</span></a></li>
+									<li><a href='#' onClick="Chair_check()"><span>Chair</span></a></li>
+									<li><a href='#' onClick="Bookcase_check()"><span>Bookcase</span></a></li>
+									<li><a href='#' onClick="Drawer_check()"><span>Drawer</span></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="BodyDiv2">
+					<div id="marquee" style="clear:left; float:left">
+						<marquee scrolldelay="40" onMouseOver="this.stop()" onMouseOut="this.start()">
+							<img src="brands/Broyhill-Hz-K-8401.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/logo-drexel-heritage.jpg">&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/logo-henredon00001.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/creativeinteriors-FBN.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/LaneFurniture-FBN.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/Licensing-logo2.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/logo-la-barge.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/logo-maitland-smith.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/logo-pearson.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="brands/logo-tvl.jpg" />
+						</marquee>
+					</div>
+				
+					<div id="content"></div>
+			   
+					<a name="Product">&nbsp;</a>
+				
+				<div id="SlideShow" style="position:relative; width:740px; margin-top:10px; margin-bottom:10px; float:left; border-radius:5px;background: #E8E8E8; display:block">
+				
+					<div style="width:100%; position:absolute;background: #d4b800;
+						background: -webkit-linear-gradient(bottom, #ff9812 , #e17310);
+						background: -ms-linear-gradient(bottom, #ff9812 , #e17310); 
+						background: -moz-linear-gradient(bottom, #ff9812 , #e17310);
+						background: -o-linear-gradient(bottom, #ff9812 , #e17310); border-top-left-radius:5px; border-top-right-radius:5px; height:24px"><a href="" style="text-decoration:none"><center><b style="text-align:center; size:14px; font:bold Arial, Helvetica, sans-serif; color:#ffffff; margin:5px">Products</b></center></a>
+					</div>
+					
+					<a name="Product2">&nbsp;</a>
+					
+					<div id="AllProducts">
+						<div class="Products">
+							<img src="images2/images1.jpg" width="150px" height="100px" /><b class="Bold">
+							Description of product in the database server</b><br/><a href="">View</a>&nbsp;&nbsp;&nbsp;
+							<a href="">Download</a>
+						</div>
+						
+						<div class="Products">
+						<img src="images2/images2.jpg" width="150px" height="100px" /><b class="Bold">
+						Description of product in the database server</b><br/><a href="">View</a>&nbsp;&nbsp;&nbsp;
+						<a href="">Download</a>
+						</div>
+						
+						<div class="Products"><img src="images2/images14.jpg" width="150px" height="100px"/><b class="Bold">
+						Description of product in the database server</b><br/><a href="">View</a>&nbsp;&nbsp;&nbsp;
+						<a href="">Download</a>
+						</div>
+						
+						<div class="Products"><img src="images2/images6.jpg" width="150px" height="100px" /><b class="Bold">
+						Description of product in the database server</b><br/><a href="">View</a>&nbsp;&nbsp;&nbsp;
+						<a href="">Download</a>
+						</div>
+						
+						<div class="Products"><img src="images2/images13.jpg" width="150px" height="100px" /><b class="Bold">
+						Description of product in the database server</b><br/><a href="">View</a>&nbsp;&nbsp;&nbsp;
+						<a href="">Download</a>
+						</div>
+						
+						<div class="Products"><img src="images2/images7.jpg" width="150px" height="100px" /><b class="Bold">
+						of product in the database server</b><br/><a href="">View</a>&nbsp;&nbsp;&nbsp;
+						<a href="">Download</a>
+						</div>
+						
+						<div class="Products"><img src="images2/images16.jpg" width="150px" height="100px" /><b class="Bold">
+						Description of product in the database server</b><br/><a href="">View</a>&nbsp;&nbsp;&nbsp;
+						<a href="">Download</a>
+						</div>
+						
+						<div class="Products"><img src="images2/images19.jpg" width="150px" height="100px" /><b class="Bold">
+						Description of product in the database server</b><br/><a href="">View</a>&nbsp;&nbsp;&nbsp;
+						<a href="">Download</a>
+						</div>
+						
+					</div>
+					
+					<div style="width:100%; float:left; height:24px; background: #d4b800;
+						background: -webkit-linear-gradient(bottom, #ff9812 , #e17310);
+						background: -ms-linear-gradient(bottom, #ff9812 , #e17310); 
+						background: -moz-linear-gradient(bottom, #ff9812 , #e17310);
+						background: -o-linear-gradient(bottom, #ff9812 , #e17310); 
+						border-bottom-left-radius:5px; border-bottom-right-radius:5px">
+					</div>
+				</div>    
+				<!-- Insert body content below here!!! -->
+				
+				</div>
+				
+				<div id="BodyDiv3">
+					
+					<!-- BodyDiv3 contents !!! -->
+					<div style="border-style:solid; border-width:1px; border-color:#E08E14; border-radius:5px" id="gDiv">
+						<div id="LogDiv"><b><span>Log in</span></b></div>
+						<form name="login" action="/search" id="search">
+							<label><b style="color:#000000; margin-left:7px">Username:</b></label>
+							<input type="text" class="un" size="26" id="Active" style="margin:5px" name="username"/><br/>
+							<label><b style="color:#000000; margin-left:7px">Password:&nbsp;</b></label>
+							<input type="password" class="pw" size="26" id="Active" style="margin:5px" name="password"/><br/>
+							<input type="button" class="button" value="Submit" style="padding:5px; margin-left:14px" align="middle" onClick=		"loggedin(document.login.username.value, document.login.password.value, 'hiddenfield', 'usern')"/>
+							<input type="reset" class="button" value="Reset" style="padding:5px" align="middle"/>
+							<input type="button" class="button" value="Register" style="padding:5px" align="middle" onClick="toggleDiv('ogDiv', 'gDiv')"/>
+						</form>
+					</div>
+				
+					<div style="border-style:solid; border-width:1px; border-color:#E08E14; border-radius:5px; display: none;" id="golDiv">
+						<div id="LogDiv"><b><span><form name="mem"><input maxlength="20" type="hidden" id="hiddenfield" name="hiddenField" value="Name: "></form></span></b></div>
+						
+						<b><table width="100%"><tr><td width="70%">You entered as: <div id="usern" style="width: 20px;"></div></td><td width="30%"><input type=	"button" value="Log Out" name="logout" class="button2"  onClick="logout('golDiv', 'gDiv')"></td></tr></table></b>
+					</div>
+				
+					<div style="border-style:solid; border-width:1px; border-color:#E08E14; border-radius:5px; margin-top: 5px;  display: none;" id="ogDiv">
+						<div id="LogDiv" style="background: #d4b800; background: -webkit-linear-gradient(bottom, #ff9812 , #e17310); background: -ms-linear-gradient(bottom, #ff9812 , #e17310);	background: -moz-linear-gradient(bottom, #ff9812 , #e17310); background: 	-o-linear-gradient(bottom, #ff9812 , #e17310);">
+						<b><span>Register</span></b></div>
+						<form name="register" action="/search" id="search">
+							<label><b style="color:#000000; margin-left:7px">Username:</b></label>
+							<input type="text" class="unreg" size="26" id="Active" style="margin:5px" name="UserN"/><br/>
+							<label><b style="color:#000000; margin-left:7px">Password:&nbsp;&nbsp;</b></label>
+							<input type="password" class="pwreg1" size="26" id="Active" style="margin:5px" name="PassW"/><br/>
+							<label><b style="color:#000000; margin-left:7px">Re-Pass:&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+							<input type="password" class="pwreg2" size="26" id="Active" style="margin:5px" name="PassW2"/><br/>
+							<label><b style="color:#000000; margin-left:7px">E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+							<input type="text" class="emreg" size="26" style="margin:5px" name="emaiL" id="regbut"/><br/>
+							<input type="button" class="button" value="Submit" style="padding:5px; margin-left:14px" align="middle" 
+							onClick="reg(document.register.UserN.value, document.register.PassW.value, document.register.PassW2.value, 		document.register.emaiL.value, 'regbut')"/>
+							<input type="reset" class="button" value="Reset" style="padding:5px" align="middle"/>
+							<input type="button" class="button" value="Cancel" style="padding:5px" align="middle" onClick="toggledDiv('ogDiv', 'gDiv')"/>
+						</form>
+					</div>
+				
+    
+    
+					<div style="border-style:solid; border-width:1px; border-color:#E08E14; border-radius:5px; margin-top:5px">
+						<form name="compare" id="search">
+							<div id="LogDiv"><b><span>Compare</span></b></div>
+							<label><b style="color:#000000; margin-left:7px">Product-1 ID: </b></label>
+							<input type="text" name="product1" class="text" size="26" id="Active" style="margin:5px"/><br>
+							<label><b style="color:#000000; margin-left:7px">Product-2 ID: </b></label>
+							<input type="text" name="product2" class="text" size="26" id="Active" style="margin:5px"/><Br>
+							<input type="button" name="Compare" class="button" value="Compare" onClick="Compare2();" style="padding:5px; margin-left:14px" />
+							<input type="reset" name="reset" class="button" value="Reset" style="padding:5px; margin-left:14px" />
+						</form>
+					</div>
+
+					<div id="Compared1" style="margin-top:5px;"></div>
+			
+					<div id="object">
+						<ul class="object2">
+							<a href="#">
+								<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="280" height="250" id="example" align="middle">
+									<param name="movie" value="example.swf" />
+									<param name="quality" value="high" />
+									<param name="bgcolor" value="#ffffff" />
+									<param name="play" value="true" />
+									<param name="loop" value="true" />
+									<param name="wmode" value="window" />
+									<param name="scale" value="showall" />
+									<param name="menu" value="true" />
+									<param name="devicefont" value="false" />
+									<param name="salign" value="" />
+									<param name="allowScriptAccess" value="sameDomain" />
+									
+									<object type="application/x-shockwave-flash" data="example.swf" width="280" height="250">
+										<param name="movie" value="example.swf" />
+										<param name="quality" value="high" />
+										<param name="bgcolor" value="#ffffff" />
+										<param name="play" value="true" />
+										<param name="loop" value="true" />
+										<param name="wmode" value="window" />
+										<param name="scale" value="showall" />
+										<param name="menu" value="true" />
+										<param name="devicefont" value="false" />
+										<param name="salign" value="" />
+										<param name="allowScriptAccess" value="sameDomain" />
+									
+										<a href="http://www.adobe.com/go/getflash">
+											<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+										</a>
+									
+									</object>
+								</object>
+							</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		<!-- Body end -->
+
+
+
+
+
+		<!-- Footer starts--> 
+		<div class="FooterDiv">
+			<div>
+				<table width="100%" height="119" border="0" style=" border-width:thin" cellpadding="6" cellspacing="1">
+					<tr>
+						<td width="33%" height="21" class="FooterHeader" style="border-top-left-radius:5px">About our Site </td>
+						<td width="33%" class="FooterHeader">Help</td>
+						<td width="33%" class="FooterHeader" style="border-top-right-radius:5px">Share&amp;Social</td>
+					</tr>
+					<tr>
+						<td height="54">
+							<ul class="Footer">
+								<li><a href="AboutUs.html" style="font-size:15px; text-decoration:none">About us </a></li>
+								<li><a href="HT buy.html" style="font-size:15px; text-decoration:none">Buy</a></li>
+							</ul>
+						</td>
+						<td>
+							<ul class="Footer">
+								<li><a href="HT member.html" style="font-size:15px; text-decoration:none">How to be a member </a></li>
+								<li><a href="HT add product.html" style="font-size:15px; text-decoration:none">How to add stationary</a></li>
+								<li><a href="HT use website.html" style="font-size:15px; text-decoration:none">How to use Website </a></li>
+							</ul>
+						</td>
+						<td>
+							<ul class="Footer">
+								<li><a href="facebook.com" target="_blank" style="font-size:15px; text-decoration:none">Facebook</a></li>
+								<li><a href="Twitter.com" target="_blank" style="font-size:15px; text-decoration:none">Twitter</a></li>
+								<li><a href="SS elist.html" style="font-size:15px; text-decoration:none">E-mail list</a></li>
+								<li><a href="ContactUs.html" style="font-size:15px; text-decoration:none">Contact us </a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="FooterDown" bgcolor="#999999">
+						Copyright by Web Developers(Munkh-Uchral, Tuvshinbayar, Tsogtbayar ,Munkhsaruul)
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!-- Footer ends -->
+	</div>
+	</body>
+</html>

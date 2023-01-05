@@ -1,0 +1,153 @@
+/* Some stylesheet reset */
+ul#TYPE > ul, #TYPE > ul ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	line-height: 1;
+}
+
+/* The container */
+#TYPE > ul, #TYPE > ul ul {
+	margin-top:0px;
+	padding-left:0px;
+	display: block;
+	position:relative;
+	width: 150px;
+	border:1px solid;
+	border-color:#FFB164; 
+	border-radius:5px;
+}
+
+	/* The list elements which contain the links */
+	#TYPE > ul li {
+		display: block;
+		position: relative;
+		margin: 0;
+		padding: 0;
+		width: 150px;	
+	}
+
+		/* General link styling */
+		#TYPE > ul li a {
+			/* Layout */
+			display: block;
+			position: relative;
+			margin: 0;
+			border-top: 1px thin #b05a0d;
+			border-bottom: 1px thin #b05a0d;
+			padding: 15px;
+			width: 110px;
+
+			/* Typography */
+			outline:none; 
+			display:block; 
+			position:relative; 
+			padding:12px 20px; 
+			font:bold 13px/100% Arial, Helvetica, sans-serif; 
+			text-align:center; 
+			text-decoration:none; 
+			text-shadow:1px 1px 0 rgba(0,0,0, 0.4);
+			color:#FFFFFF;
+
+			/* Background & effects */
+			background: #d4b800;
+			background: -webkit-linear-gradient(bottom, #ff9812 , #e17310);
+			background: -ms-linear-gradient(bottom, #ff9812 , #e17310); 
+			background: -moz-linear-gradient(bottom, #ff9812 , #e17310);
+			background: -o-linear-gradient(bottom, #ff9812 , #e17310);
+		}
+
+		/* Rounded corners for the first link of the menu/submenus */
+		#type > ul li:first-child>a {
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			border-top: 0;
+		}
+
+		/* Rounded corners for the last link of the menu/submenus */
+		#type > ul li:last-child>a {
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			border-bottom: 0;
+		}
+
+
+		/* The hover state of the menu/submenu links */
+		#TYPE > ul li>a:hover, #TYPE > ul li:hover>a {
+			color: #fff;
+			text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+			background: #282828;
+			border-color: transparent;
+		}
+		#TYPE > ul li > ul li:hover>a{
+			background: -webkit-linear-gradient(bottom, #ff9812 , #e17310);
+			background: -ms-linear-gradient(bottom, #ff9812 , #e17310); 
+			background: -moz-linear-gradient(bottom, #ff9812 , #e17310);
+			background: -o-linear-gradient(bottom, #ff9812 , #e17310);
+		}
+		#TYPE > ul li > ul li a{
+			background: #282828;
+		}
+		/* The arrow indicating a submenu */
+		#TYPE > ul .has-sub2>a:after {
+			content: '';
+			position: absolute;
+			top: 16px;
+			right: 10px;
+			width: 0px;
+			height: 0px;
+
+			/* Creating the arrow using borders */
+			border: 4px solid transparent;
+			border-left: 4px solid #d8d8d8; 
+		}
+
+		/* The same arrow, but with a darker color, to create the shadow effect */
+		#TYPE > ul .has-sub2>a:before {
+			content: '';
+			position: absolute;
+			top: 17px;
+			right: 10px;
+			width: 0px;
+			height: 0px;
+
+			/* Creating the arrow using borders */
+			border: 4px solid transparent;
+			border-left: 4px solid #000000;
+		}
+
+		/* Changing the color of the arrow on hover */
+		#TYPE > ul li>a:hover::after, #TYPE > ul li:hover>a::after {
+			border-left: 4px solid #fff;
+		}
+
+		#TYPE > ul li>a:hover::before, #TYPE > ul li:hover>a::before {
+			border-left: 4px solid rgba(0, 0, 0, .3);
+		}
+
+	
+		/* THE SUBMENUS */
+		#TYPE > ul ul {
+			position: absolute;
+			left: 150px;
+			top: -9999px;
+			padding-left:2px;
+			opacity: 0;
+			z-index:999;
+			border:none;
+			border-top-right-radius:5px;
+			border-botton-right-radius:5px;
+			/* The fade effect, created using an opacity transition */
+			-webkit-transition: opacity .2s ease-in;
+			-moz-transition: opacity .2s ease-in;
+			-o-transition: opacity .2s ease-in;
+			-ms-transition: opacity .2s ease-in;
+		}
+
+		/* Showing the submenu when the user is hovering the parent link */
+		#TYPE > ul li:hover>ul {
+			top: 0px;
+			opacity: 1;
+			border-radius:5px;
+		}
